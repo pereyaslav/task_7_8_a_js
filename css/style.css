@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.tabs_box {
+	width: 800px;
+	background: #fff;
+	margin: 10px auto;
+	-webkit-box-shadow: 0px 5px 3px 0px rgba(50, 50, 50, 0.65);
+-moz-box-shadow:    0px 5px 3px 0px rgba(50, 50, 50, 0.65);
+box-shadow:         0px 3px 3px 0px rgba(50, 50, 50, 0.45);
+}
+
+#tab2,
+#tab3 {
+	display: none;
+}
+
+.tab {
+
+	padding: 0 10px;
+}
+
+.tabs_menu li a {
+	background: #f9f9f9;
+}
+
+.tabs_menu .active {
+	background: #eee;
+	color: #484c78;
+	font-weight: bold;
+}
